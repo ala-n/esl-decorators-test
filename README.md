@@ -4,6 +4,7 @@ The goal of this project is to demonstrate how to incorporate Exadel Smart Libra
 **Note** If you want to utilize the syntactic sugar offered by Exadel Smart Library, it is essential to have a compiler that supports TypeScript experimental decorators. However, even if your compiler lacks this support, the functionality provided by ESL will remain intact.
 
 # Configuration
+
 In order to enable full support for decorators, it requires to have a Babel config file configured with the necessary plugins: [@babel/plugin-proposal-decorators](https://babeljs.io/docs/babel-plugin-proposal-decorators) and [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/babel-plugin-proposal-class-properties).
 
 `
